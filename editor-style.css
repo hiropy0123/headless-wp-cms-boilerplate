@@ -1,0 +1,53 @@
+body#tinymce.mce-content-body {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 3% !important;
+  max-width: 728px;
+  color: #515151;
+}
+
+.mce-content-body .editor-area {
+  margin: 0px 20px 0.5em 20px;
+  font-size: 15px !important;
+  line-height: 150%;
+}
+
+.mce-content-body p {
+  margin-bottom: 2em;
+  line-height: 1.75;
+}
+
+.editor-rich-text__tinymce.mce-content-body,
+.mce-content-body,
+.editor-post-title__block .editor-post-title__input,
+.editor-block-list__block,
+.block-editor-block-list__block-edit,
+.wp-block {
+  font-family: 'Noto Sans JP', 'Hiragino Sans', '游ゴシック', 'Yu Gothic',
+    '游ゴシック体', 'YuGothic', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+}
+
+.wp-block {
+  max-width: 1000px;
+}
+
+.editor-post-title__block .editor-post-title__input {
+  font-size: 36px;
+  font-weight: 600;
+  color: #202020;
+}
+
+.block-editor .editor-styles-wrapper h2 {
+  text-align: center;
+  border-top: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  font-size: 22px;
+  padding: 0.75em 1em;
+}
+
+.block-editor .editor-styles-wrapper h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
